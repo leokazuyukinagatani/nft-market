@@ -1,8 +1,12 @@
 import React from 'react'
 import { Text } from 'react-native'
 
-export default function Home() {
+import { COLORS, NFTData } from '../../constants'
+import { SafeAreaView } from 'react-native-safe-area-context'
+export  function Home() {
   return (
-    <Text>Home</Text>
+    <SafeAreaView style={{flex: 1}}>
+      
+    </SafeAreaView>
   )
 }
